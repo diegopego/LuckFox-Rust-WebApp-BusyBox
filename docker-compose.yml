@@ -1,0 +1,6 @@
+services:
+  cross-compile:
+    build: .
+    volumes:
+      - ./:/workspace
+    command: tail -f /dev/null

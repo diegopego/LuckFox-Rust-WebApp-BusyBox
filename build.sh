@@ -18,10 +18,10 @@ export RUSTFLAGS="-C target-feature=+crt-static -C link-args=-lpthread -C link-a
 cargo build --target armv7-unknown-linux-musleabihf --release
 
 # Verify the binary architecture
-file target/armv7-unknown-linux-musleabihf/release/LuckyFox
+file target/armv7-unknown-linux-musleabihf/release/LuckFox
 
 # Copy the compiled binary to the workspace directory
-cp target/armv7-unknown-linux-musleabihf/release/LuckyFox LuckyFox
+cp target/armv7-unknown-linux-musleabihf/release/LuckFox LuckFox
 
 # Reset the environment variables
 unset SQLITE3_LIB_DIR

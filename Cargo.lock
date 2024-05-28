@@ -3,7 +3,7 @@
 version = 3
 
 [[package]]
-name = "LuckyFox"
+name = "LuckFox"
 version = "0.1.0"
 dependencies = [
  "actix-web",
